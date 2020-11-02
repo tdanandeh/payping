@@ -34,6 +34,6 @@
   },
   "minimum-stability": "dev",
    "prefer-stable": true,
-  "version": "1.x",
+  "version": "1.*",
   "description": "PayPing for Laravel"
 }
