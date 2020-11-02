@@ -4,7 +4,7 @@ payment and oauth2 request library for payping
 
 ## نحوه استفاده
 ### نصب
-``composer require Tohidda/payping``
+``composer require tdanandeh/payping``
 
 ### درخواست پرداخت
 ```php
