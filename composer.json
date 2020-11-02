@@ -1,0 +1,38 @@
+{
+  "name": "Tohidda/payping",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tohid Danandeh",
+      "email": "livedars@yahoo.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PayPing\\": "src/"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.2",
+    "ext-openssl": "*",
+    "ext-json": "*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PayPing\\Laravel\\PayPingServiceProvider"
+      ],
+      "aliases": {
+        "Authorization": "PayPing\\Laravel\\Facade\\Authorization",
+        "Payment": "PayPing\\Laravel\\Facade\\Payment"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "version": "1.0.0",
+  "description": "PayPing for Laravel"
+}
