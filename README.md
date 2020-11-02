@@ -1,4 +1,5 @@
-# payping-client
+# payping for laravel 8
+درگاه پرداخت پی پینگ برای لاراول 8
 
 payment and oauth2 request library for payping
 
