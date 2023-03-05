@@ -1,4 +1,4 @@
-# payping for laravel 8
+# payping for laravel 8 - 9 -10
 درگاه پرداخت پی پینگ برای لاراول 8
 
 payment and oauth2 request library for payping
